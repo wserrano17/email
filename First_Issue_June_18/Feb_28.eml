@@ -1,0 +1,112 @@
+Content-Type: multipart/alternative;
+	boundary="Apple-Mail=_965CE8F5-6F98-422E-8C51-0B39BB90B5FF"
+Subject: 
+Mime-Version: 1.0 (Mac OS X Mail 16.0 \(3731.600.7\))
+X-Apple-Base-Url: x-msg://5/
+X-Universally-Unique-Identifier: 093D9989-B023-451D-A63B-5C70500E2246
+X-Apple-Mail-Remote-Attachments: YES
+From: 
+X-Apple-Windows-Friendly: 1
+Date: Wed, 28 Feb 2024 12:16:41 -0500
+X-Apple-Mail-Signature: B7CE72AC-293E-417F-913D-20BC14653530
+Message-Id: <57ACD94E-B985-4DEA-A6A4-FA28ED09BD35@cornell.edu>
+X-Uniform-Type-Identifier: com.apple.mail-draft
+
+
+--Apple-Mail=_965CE8F5-6F98-422E-8C51-0B39BB90B5FF
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain;
+	charset=us-ascii
+
+
+--Apple-Mail=_965CE8F5-6F98-422E-8C51-0B39BB90B5FF
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html;
+	charset=us-ascii
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    :root {
+      font-family: 'menlo', sans-serif;
+    }
+
+    .flex-container {
+      display: flex;
+      flex-flow: row wrap;
+      border: 1px solid white;
+    }
+
+    .flex-container>div {
+      background-color: white;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+    }
+
+    #star-five {
+      margin: 50px 0;
+      position: relative;
+      display: block;
+      color: red;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(35deg);
+    }
+
+    #star-five:before {
+      border-bottom: 80px solid red;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -45px;
+      left: -65px;
+      display: block;
+      content: '';
+      transform: rotate(-35deg);
+    }
+
+    #star-five:after {
+      position: absolute;
+      display: block;
+      color: red;
+      top: 3px;
+      left: -105px;
+      width: 0px;
+      height: 0px;
+      border-right: 100px solid transparent;
+      border-bottom: 70px solid red;
+      border-left: 100px solid transparent;
+      transform: rotate(-70deg);
+      content: '';
+    }
+  </style>
+</head>
+
+<body style="background-color:orange;">
+  <div class="flex-container">
+    <div>Hello! I saw Michelle making a website this weekend, and I was inspired to practice
+      my html skills. So welcome to my newsletter! I'm not sure what ill put in it, so ill prob just put juicy life
+      updates like what I've been eating, what I've been reading, and what I've been listening to. </div>
+    <div>This weekend, emma and caroline came over, and suffice it to say, it was crazy lit movie. 
+      We did everything you could possibly do, carolne (sun's) house, my place, and khouse. I think 
+      the conclusion is that Emma and I need to do a parent trap switcheroo. </div>
+    <div> I'm not sure if images will work...so let ill just put this star that I copied from an html tutorial.</div>
+    <div class="star">
+    <div id="star-five:before"></div>
+    <div id="star-five"> </div>
+    <div id="star-five:after"></div>
+    </div>
+    <div> </div>
+  </div>
+  
+</body>
+
+</html>
+--Apple-Mail=_965CE8F5-6F98-422E-8C51-0B39BB90B5FF--

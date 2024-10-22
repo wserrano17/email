@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      font-family: "Kode Mono";
+      background-color: whitesmoke;
+    }
+
+    h1 {
+      font-family: "Rubik Mono One"
+    }
+
+    img {
+      border: 5px solid red;
+    }
+
+    .one::before {
+      content: "1";
+    }
+
+    .module {
+      display: flex;
+      flex-flow: row wrap;
+      border-top: 1px solid black;
+    }
+
+    /* .module:first-child {
+      width: 10%;
+    } */
+
+    .module>* {
+      flex: 0 1 0;
+    }
+
+    .section {
+      font-family: Rubik Mono One;
+      padding-right: 10px;
+      padding-left: 10px;
+      border-left: 1px solid black;
+      border-right: 1px solid black;
+      /* align-items: center; */
+    }
+
+    .entry {
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<div class="content">
+  <div class="title">
+    <h1>WILLIAM'S NEWSLETTER</h1>
+  </div>
+  <div class="intro">
+    <p> Hello! Welcome to my awesome newsletter! I thought it would be fun to make a newsletter to practice my
+      front-end skills and to keep my fans updated. Bear with me if there are typos LOL bc im straight up typing
+      this in vs code...</p>
+    <p> I'm currently in Birmingham Alabama where my family lives now which is cool.
+      I'm fresh off a week and a half in Gainesville Florida with my brother. </p>
+  </div>
+  <div class="gallery">
+    <img class="one"></img>
+  </div>
+  <div class="module">
+    <div class="section">
+      WATCHING:
+    </div>
+    <p class="entry">
+      im watching your mom
+    </p>
+  </div>
+  <div class="module">
+    <div class="section">
+      READING:
+    </div>
+    <p class="entry">
+      im reading your mom dfaldsl;fajfasl;jkdfa;dslkfj
+      adf
+      asdf
+      asdf
+      dashfsad
+      fajfasldsfsadjfadf sdlf jdsal;fj asd;fljads f;ladsjf ;ladsfj asd;lf jads;lfj ads;lfj asf
+      asdlfjasd f;adsl jk
+    </p>
+  </div>
+  <div class="module">
+    <div class="section">
+      LISTENING (TO):
+    </div>
+    <p class="entry">
+      im listening to your mom
+    </p>
+  </div>
+
+</div>
+
+</html>
